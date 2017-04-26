@@ -77,7 +77,7 @@
 <tspan x="10" y="1194">  ├── is-number@3.0.0 </tspan>
 <tspan x="10" y="1210">  ├─┬ is-odd@0.1.1 </tspan>
 <tspan x="10" y="1226">  │ └── is-number@1.1.2 </tspan>
-<tspan x="10" y="1242">  ├─┬ kind-of@3.1.0 </tspan>
+<tspan x="10" y="1242">  ├─┬ kind-of@3.2.0 </tspan>
 <tspan x="10" y="1258">  │ └── is-buffer@1.1.5 </tspan>
 <tspan x="10" y="1274">  ├─┬ lazy-cache@2.0.2 </tspan>
 <tspan x="10" y="1290">  │ └─┬ set-getter@0.1.0 </tspan>
