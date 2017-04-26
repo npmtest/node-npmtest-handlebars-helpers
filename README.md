@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-handlebars-helpers/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-handlebars-helpers/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-handlebars-helpers/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-handlebars-helpers/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-handlebars-helpers/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-handlebars-helpers/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-handlebars-helpers/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-handlebars-helpers/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-handlebars-helpers/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-handlebars-helpers/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-handlebars-helpers/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-handlebars-helpers/build/coverage.html/index.html)
 
@@ -35,66 +35,163 @@
 ```json
 
 {
-    "name": "handlebars-helpers",
-    "description": "More than 130 Handlebars helpers in ~20 categories. Helpers can be used with Assemble, Generate, Verb, Ghost, gulp-handlebars, grunt-handlebars, consolidate, or any node.js/Handlebars project.",
-    "version": "0.8.2",
-    "homepage": "https://github.com/helpers/handlebars-helpers",
-    "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-    "contributors": [
-        "Aleš Kotnik <ales.kotnik@gmail.com> (www.draagle.com)",
-        "Alex Hunt <hello@alexhunt.io> (https://alexhunt.io)",
-        "Ali Sheehan-Dare <alisd23@live.co.uk> (https://github.com/alisd23)",
-        "Anders D. Johnson (https://andrz.me)",
-        "Arthur Cinader (http://github.com/acinader)",
-        "Brian Woodward <brian.woodward@gmail.com> (https://twitter.com/doowb)",
-        "Dan Dascalescu <ddascalescu+github@gmail.com> (http://dandascalescu.com)",
-        "Dan Gorby (https://plus.google.com/+GreenRaccoon23)",
-        "Dane Petersen (https://thegreatsunra.com)",
-        "Daniel Wabyick (https://github.com/dwabyick)",
-        "Hariadi Hinta (http://www.hariadi.org)",
-        "Jan Stola (https://github.com/iamstolis)",
-        "Jarvis Badgley <chiper@chipersoft.com> (http://www.chipersoft.com)",
-        "Jason Bellamy <j@sonbellamy.com> (http://jasonbellamy.com)",
-        "Jeffrey Froom (http://jfroom.com)",
-        "Joey Baker <joey@byjoeybaker.com> (https://byjoeybaker.com)",
-        "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
-        "Laurent Goderre <laurent.goderre@gmail.com> (https://github.com/LaurentGoderre)",
-        "Liam Moat <contact@liammoat.com> (http://www.liammoat.com)",
-        "Makoto Tateno <makoto.ttn@gmail.com> (https://github.com/makotot)",
-        "Marie Hogebrandt <webmistress@melindrea.net> (http://mariehogebrandt.se)",
-        "Mark Perkins (http://allmarkedup.com)",
-        "Martyn Rushton (http://swapnull.co.uk)",
-        "Max Albrecht <1@178.is> (178.is)",
-        "Michael Sheedy (michaelsheedy.com)",
-        "Mikko Tapionlinna (http://mikko.tapionlinna.fi)",
-        "Nathan Jessen (http://nathanjessen.github.io)",
-        "Nathaniel Furniss (https://github.com/nlfurniss)",
-        "Oleg Orlov (https://github.com/efender)",
-        "Patrick Burtchaell <patrick@pburtchaell.com> (https://pburtchaell.com)",
-        "Paul Welsh <spacedawwwg@gmail.com> (paulwelsh.info)",
-        "Raymond Camden <raymondcamden@gmail.com> (http://www.raymondcamden.com)",
-        "Sam Tiffin (https://samtiffin.com)",
-        "Shannon Moeller <me@shannonmoeller.com> (http://shannonmoeller.com)",
-        "Stephen Way (http://stephenway.net)",
-        "Thomas Jaggi (http://responsive.ch)",
-        "Tim Douglas (https://github.com/timdouglas)"
-    ],
-    "repository": "helpers/handlebars-helpers",
+    "author": {
+        "name": "Jon Schlinkert",
+        "url": "https://github.com/jonschlinkert"
+    },
     "bugs": {
         "url": "https://github.com/helpers/handlebars-helpers/issues"
     },
-    "license": "MIT",
-    "files": [
-        "index.js",
-        "lib"
+    "contributors": [
+        {
+            "name": "Aleš Kotnik",
+            "url": "www.draagle.com"
+        },
+        {
+            "name": "Alex Hunt",
+            "url": "https://alexhunt.io"
+        },
+        {
+            "name": "Ali Sheehan-Dare",
+            "url": "https://github.com/alisd23"
+        },
+        {
+            "name": "Anders D. Johnson",
+            "url": "https://andrz.me"
+        },
+        {
+            "name": "Arthur Cinader",
+            "url": "http://github.com/acinader"
+        },
+        {
+            "name": "Brian Woodward",
+            "url": "https://twitter.com/doowb"
+        },
+        {
+            "name": "Dan Dascalescu",
+            "url": "http://dandascalescu.com"
+        },
+        {
+            "name": "Dan Gorby",
+            "url": "https://plus.google.com/+GreenRaccoon23"
+        },
+        {
+            "name": "Dane Petersen",
+            "url": "https://thegreatsunra.com"
+        },
+        {
+            "name": "Daniel Wabyick",
+            "url": "https://github.com/dwabyick"
+        },
+        {
+            "name": "Hariadi Hinta",
+            "url": "http://www.hariadi.org"
+        },
+        {
+            "name": "Jan Stola",
+            "url": "https://github.com/iamstolis"
+        },
+        {
+            "name": "Jarvis Badgley",
+            "url": "http://www.chipersoft.com"
+        },
+        {
+            "name": "Jason Bellamy",
+            "url": "http://jasonbellamy.com"
+        },
+        {
+            "name": "Jeffrey Froom",
+            "url": "http://jfroom.com"
+        },
+        {
+            "name": "Joey Baker",
+            "url": "https://byjoeybaker.com"
+        },
+        {
+            "name": "Jon Schlinkert",
+            "url": "http://twitter.com/jonschlinkert"
+        },
+        {
+            "name": "Laurent Goderre",
+            "url": "https://github.com/LaurentGoderre"
+        },
+        {
+            "name": "Liam Moat",
+            "url": "http://www.liammoat.com"
+        },
+        {
+            "name": "Makoto Tateno",
+            "url": "https://github.com/makotot"
+        },
+        {
+            "name": "Marie Hogebrandt",
+            "url": "http://mariehogebrandt.se"
+        },
+        {
+            "name": "Mark Perkins",
+            "url": "http://allmarkedup.com"
+        },
+        {
+            "name": "Martyn Rushton",
+            "url": "http://swapnull.co.uk"
+        },
+        {
+            "name": "Max Albrecht",
+            "url": "178.is"
+        },
+        {
+            "name": "Michael Sheedy",
+            "url": "michaelsheedy.com"
+        },
+        {
+            "name": "Mikko Tapionlinna",
+            "url": "http://mikko.tapionlinna.fi"
+        },
+        {
+            "name": "Nathan Jessen",
+            "url": "http://nathanjessen.github.io"
+        },
+        {
+            "name": "Nathaniel Furniss",
+            "url": "https://github.com/nlfurniss"
+        },
+        {
+            "name": "Oleg Orlov",
+            "url": "https://github.com/efender"
+        },
+        {
+            "name": "Patrick Burtchaell",
+            "url": "https://pburtchaell.com"
+        },
+        {
+            "name": "Paul Welsh",
+            "url": "paulwelsh.info"
+        },
+        {
+            "name": "Raymond Camden",
+            "url": "http://www.raymondcamden.com"
+        },
+        {
+            "name": "Sam Tiffin",
+            "url": "https://samtiffin.com"
+        },
+        {
+            "name": "Shannon Moeller",
+            "url": "http://shannonmoeller.com"
+        },
+        {
+            "name": "Stephen Way",
+            "url": "http://stephenway.net"
+        },
+        {
+            "name": "Thomas Jaggi",
+            "url": "http://responsive.ch"
+        },
+        {
+            "name": "Tim Douglas",
+            "url": "https://github.com/timdouglas"
+        }
     ],
-    "main": "index.js",
-    "engines": {
-        "node": ">= 0.10.0"
-    },
-    "scripts": {
-        "test": "mocha"
-    },
     "dependencies": {
         "arr-filter": "^1.1.1",
         "arr-flatten": "^1.0.1",
@@ -126,6 +223,7 @@
         "striptags": "^2.1.1",
         "to-gfm-code-block": "^0.1.1"
     },
+    "description": "More than 130 Handlebars helpers in ~20 categories. Helpers can be used with Assemble, Generate, Verb, Ghost, gulp-handlebars, grunt-handlebars, consolidate, or any node.js/Handlebars project.",
     "devDependencies": {
         "engine-handlebars": "^0.8.0",
         "fs-exists-sync": "^0.1.0",
@@ -149,6 +247,20 @@
         "verb-generate-readme": "^0.3.0",
         "vinyl": "^2.0.1"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "8e0db7d8a9184b255723213216aa668742a0a4dd",
+        "tarball": "https://registry.npmjs.org/handlebars-helpers/-/handlebars-helpers-0.8.2.tgz"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "files": [
+        "index.js",
+        "lib"
+    ],
+    "gitHead": "a3683bab5519882927de527077c34a98ac22067b",
+    "homepage": "https://github.com/helpers/handlebars-helpers",
     "keywords": [
         "assemble",
         "block",
@@ -184,6 +296,28 @@
         "template",
         "url"
     ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "doowb"
+        },
+        {
+            "name": "jonschlinkert"
+        },
+        {
+            "name": "spacedawwwg"
+        }
+    ],
+    "name": "handlebars-helpers",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/helpers/handlebars-helpers.git"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
     "verb": {
         "run": true,
         "toc": true,
@@ -220,7 +354,9 @@
         "lint": {
             "reflinks": true
         }
-    }
+    },
+    "version": "0.8.2",
+    "bin": {}
 }
 ```
 
